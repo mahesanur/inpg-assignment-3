@@ -1,16 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #191a1a;
+    background-color: #edf1fd;
 }
 
 #main{
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    background-color: #edf1fd;
-    background-image: url(../gambar/cup-of-coffee-1280537_1920.jpg);
-    background-size: 100%;
     padding: 0;
     margin: 0;
     position: relative;
@@ -54,20 +51,7 @@ a:hover{
     border-radius: 10px;
 }
 
-.halo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    width: 450px;
-    top: 38%;
-    padding-left: 25px;    
-}
-
-.halo p{
-   font-size: 22px; 
-   margin-bottom: 0;
-}
-
-.halo h1{
-    font-size: 32px;
-    margin-top: 0;
+form{
+    position: relative;
+    padding: 150px;
 }

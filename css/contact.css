@@ -26,7 +26,7 @@ nav{
     width: 100%;
     background-color: #edf1fd;
     opacity: 0.5;
-    padding: 10px;
+    padding: 25px;
 }
 
 ul{
@@ -49,9 +49,17 @@ a:hover{
     background-color: #000000;
     transition: all ease-in-out 0.5s;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 form{
     position: relative;
     padding: 150px;
+    top: 100px;
+}
+
+div .form-box {
+    position: relative;
+    size: inherit;
+    width: 500px;
 }
